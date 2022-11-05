@@ -14,6 +14,7 @@ import com.example.uploadingfiles.storage.StorageService;
 public class UploadingFilesApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Application Startd");
 		SpringApplication.run(UploadingFilesApplication.class, args);
 	}
 
